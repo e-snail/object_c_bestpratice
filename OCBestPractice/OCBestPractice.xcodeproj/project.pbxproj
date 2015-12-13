@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		11E460C11C1D1C48009D3661 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E460C01C1D1C48009D3661 /* main.m */; };
+		11E460CB1C1D54D5009D3661 /* EngineComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E460CA1C1D54D5009D3661 /* EngineComponent.m */; };
+		11E460CF1C1D582C009D3661 /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E460CE1C1D582C009D3661 /* Engine.m */; };
+		11E460D11C1D60F4009D3661 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E460D01C1D60F4009D3661 /* Car.m */; };
+		11E460D41C1D6583009D3661 /* Tire.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E460D31C1D6583009D3661 /* Tire.m */; };
+		11E460D81C1D68EE009D3661 /* XXXTire.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E460D71C1D68EE009D3661 /* XXXTire.m */; };
+		11E460DE1C1D7820009D3661 /* TrafficDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E460DD1C1D7820009D3661 /* TrafficDepartment.m */; };
+		11E460E01C1D8034009D3661 /* NSString+NumberConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E460DF1C1D8034009D3661 /* NSString+NumberConvenience.m */; };
+		11E460E41C1D862E009D3661 /* CThing1.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E460E31C1D862E009D3661 /* CThing1.m */; };
+		11E460E61C1D8834009D3661 /* CategoryThing.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E460E51C1D8834009D3661 /* CategoryThing.m */; };
+		11E460EA1C1D89AC009D3661 /* CThing2.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E460E91C1D89AC009D3661 /* CThing2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +35,26 @@
 /* Begin PBXFileReference section */
 		11E460BD1C1D1C48009D3661 /* OCBestPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OCBestPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E460C01C1D1C48009D3661 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11E460C71C1D4DE7009D3661 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		11E460C81C1D5054009D3661 /* Engine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		11E460C91C1D543D009D3661 /* EngineComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EngineComponent.h; sourceTree = "<group>"; };
+		11E460CA1C1D54D5009D3661 /* EngineComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EngineComponent.m; sourceTree = "<group>"; };
+		11E460CE1C1D582C009D3661 /* Engine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Engine.m; sourceTree = "<group>"; };
+		11E460D01C1D60F4009D3661 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		11E460D21C1D6466009D3661 /* Tire.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tire.h; sourceTree = "<group>"; };
+		11E460D31C1D6583009D3661 /* Tire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tire.m; sourceTree = "<group>"; };
+		11E460D61C1D68C4009D3661 /* XXXTire.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXXTire.h; sourceTree = "<group>"; };
+		11E460D71C1D68EE009D3661 /* XXXTire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXXTire.m; sourceTree = "<group>"; };
+		11E460D91C1D6ED6009D3661 /* Vehicle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		11E460DA1C1D74B2009D3661 /* PolutionSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PolutionSource.h; sourceTree = "<group>"; };
+		11E460DC1C1D773E009D3661 /* TrafficDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrafficDepartment.h; sourceTree = "<group>"; };
+		11E460DD1C1D7820009D3661 /* TrafficDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrafficDepartment.m; sourceTree = "<group>"; };
+		11E460DF1C1D8034009D3661 /* NSString+NumberConvenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NumberConvenience.m"; sourceTree = "<group>"; };
+		11E460E11C1D8306009D3661 /* NSString+NumberConvenience.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+NumberConvenience.h"; sourceTree = "<group>"; };
+		11E460E21C1D85B9009D3661 /* CategoryThing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryThing.h; sourceTree = "<group>"; };
+		11E460E31C1D862E009D3661 /* CThing1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CThing1.m; sourceTree = "<group>"; };
+		11E460E51C1D8834009D3661 /* CategoryThing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryThing.m; sourceTree = "<group>"; };
+		11E460E91C1D89AC009D3661 /* CThing2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CThing2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +87,27 @@
 		11E460BF1C1D1C48009D3661 /* OCBestPractice */ = {
 			isa = PBXGroup;
 			children = (
+				11E460C71C1D4DE7009D3661 /* Car.h */,
+				11E460D01C1D60F4009D3661 /* Car.m */,
+				11E460C81C1D5054009D3661 /* Engine.h */,
+				11E460CE1C1D582C009D3661 /* Engine.m */,
+				11E460C91C1D543D009D3661 /* EngineComponent.h */,
+				11E460CA1C1D54D5009D3661 /* EngineComponent.m */,
 				11E460C01C1D1C48009D3661 /* main.m */,
+				11E460D21C1D6466009D3661 /* Tire.h */,
+				11E460D31C1D6583009D3661 /* Tire.m */,
+				11E460D61C1D68C4009D3661 /* XXXTire.h */,
+				11E460D71C1D68EE009D3661 /* XXXTire.m */,
+				11E460D91C1D6ED6009D3661 /* Vehicle.h */,
+				11E460DA1C1D74B2009D3661 /* PolutionSource.h */,
+				11E460DC1C1D773E009D3661 /* TrafficDepartment.h */,
+				11E460DD1C1D7820009D3661 /* TrafficDepartment.m */,
+				11E460DF1C1D8034009D3661 /* NSString+NumberConvenience.m */,
+				11E460E11C1D8306009D3661 /* NSString+NumberConvenience.h */,
+				11E460E21C1D85B9009D3661 /* CategoryThing.h */,
+				11E460E31C1D862E009D3661 /* CThing1.m */,
+				11E460E51C1D8834009D3661 /* CategoryThing.m */,
+				11E460E91C1D89AC009D3661 /* CThing2.m */,
 			);
 			path = OCBestPractice;
 			sourceTree = "<group>";
@@ -118,7 +168,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11E460E01C1D8034009D3661 /* NSString+NumberConvenience.m in Sources */,
+				11E460D41C1D6583009D3661 /* Tire.m in Sources */,
 				11E460C11C1D1C48009D3661 /* main.m in Sources */,
+				11E460DE1C1D7820009D3661 /* TrafficDepartment.m in Sources */,
+				11E460CB1C1D54D5009D3661 /* EngineComponent.m in Sources */,
+				11E460E41C1D862E009D3661 /* CThing1.m in Sources */,
+				11E460D11C1D60F4009D3661 /* Car.m in Sources */,
+				11E460D81C1D68EE009D3661 /* XXXTire.m in Sources */,
+				11E460E61C1D8834009D3661 /* CategoryThing.m in Sources */,
+				11E460CF1C1D582C009D3661 /* Engine.m in Sources */,
+				11E460EA1C1D89AC009D3661 /* CThing2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

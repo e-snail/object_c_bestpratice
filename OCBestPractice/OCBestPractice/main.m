@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Car.h"
+#import "NSString+NumberConvenience.h"
+#import "TrafficDepartment.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -124,6 +127,19 @@ int main(int argc, const char * argv[]) {
         NSLog(@"RectValue %@", nsValue);
         NSRect *anotherRect;
         [nsValue getValue: &anotherRect];
+        
+        // 类别categories
+        //
+        NSMutableDictionary *categoryDict = [NSMutableDictionary dictionary];
+        [categoryDict setObject:[@"Hello OC" lengthAsNumber] forKey:@"Hello OC"];
+        [categoryDict setObject:[@"Hello IOS" lengthAsNumber] forKey:@"Hello IOS"];
+        
+        // Car/Engine/Tire类
+        NSLog(@"-----------------------");
+        Car *car = [Car init];
+        TrafficDepartment *trafficDepartment = [TrafficDepartment init];
+        trafficDepartment.vehicleDelegation = car;
+        [trafficDepartment doSomething];
     }
     return 0;
 }
