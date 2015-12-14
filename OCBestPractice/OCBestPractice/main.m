@@ -136,7 +136,7 @@ int main(int argc, const char * argv[]) {
         
         // Car/Engine/Tire类
         NSLog(@"-----------------------");
-        Car *car = [Car init];
+        Car *car = [[Car alloc] init];
         TrafficDepartment *trafficDepartment = [TrafficDepartment init];
         trafficDepartment.vehicleDelegation = car;
         [trafficDepartment doSomething];

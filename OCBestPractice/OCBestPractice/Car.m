@@ -30,6 +30,7 @@
 -(void)setEngine:(Engine *)newEngine {
 //    [self.engine release]; ????
     self.engine = newEngine;
+    
 }
 
 - (Engine *)engine {
